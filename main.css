@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("img/ocean.png");
+	background-repeat: repeat;
+}
+
+
+#box{
+	width: 1200px;
+	margin:0 auto;
+	
+}
+
+
+header{ width: 800px;
+	heigh:150px;
+	text-align: end;
+	font-size: 30px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 30% 30%;
+  grid-template-rows: 25% 40% 35%;
+  gap: 3% 5%;
+	background-color: aqua;
+
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
